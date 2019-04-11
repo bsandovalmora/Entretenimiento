@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="~/Content/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/css/menu.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CamoStore</title>
+</head>
+<body>
+    <div data-role="page" data-theme="f">
+        <div data-role="header" data-theme="f">     
+            <h1>CamoStore</h1>
+            <a href="/Home/Index" data-rel="back" class="dropbtn ui-btn-left ui-btn-inline"><img src="~/Content/img/anterior.png" width="30" height="30" /></a>
+        </div>
+        <div data-role="content" style="text-align:center;">
+            <img src="~/Content/img/usuarios.png" width="100" height="100"/>
+            <h2>Inicio de Sesión</h2>            
+                <form action="/Home/IngresarLogin" method="post">
+
+                    <input class="texto" data-theme="a" type="text" name="user" id="user" placeholder="Nombre de usuario" autocomplete="off" required />
+
+                    <input class="texto" data-theme="a" type="password" name="pass" id="pass" placeholder="Contraseña" autocomplete="off" required />
+                    <br />
+                    <input class="ui-btn ui-corner-all" data-theme="b" type="submit" value="Ingresar" name="iniciar" />
+                </form>
+            <p><a class="ui-btn" data-theme="a" href="/Home/CrearCuenta">Cear cuenta</a></p>
+        </div>
+        <div data-role="footer" data-position="fixed" style="text-align:center;">
+            <p><a href="begin-password-reset.html">¿Olvidaste la contraseña?</a></p>
+        </div>
+    </div>
+</body>
+</html>

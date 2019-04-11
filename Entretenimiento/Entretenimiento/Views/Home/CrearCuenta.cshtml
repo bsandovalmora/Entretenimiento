@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="~/Content/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/css/menu.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CamoStore</title>
+</head>
+<body>
+    <div data-role="page" data-theme="f">
+        <div data-role="header" data-theme="f">
+            <h1>CamoStore</h1>
+            <a href="/Home/InicioSesion" data-rel="back" class="dropbtn ui-btn-left ui-btn-inline"><img src="~/Content/img/anterior.png" width="30" height="30" /></a>
+        </div>
+        <div data-role="content" style="text-align:center;">      
+            <h2>Crear Cuenta</h2>
+            <form action="/Home/" method="post">
+
+                <input data-theme="a" type="text" name="nombre" id="nombre" placeholder="Nombre" autocomplete="off" required />
+                <input data-theme="a" type="text" name="apellidos" id="apellidos" placeholder="Apellidos" autocomplete="off" required />
+                <input data-theme="a" type="text" name="user" id="user" placeholder="Nombre de usuario" autocomplete="off" required />
+                <input data-theme="a" type="text" name="correo" id="correo" placeholder="Correo electrónico" autocomplete="off" required />
+                <input data-theme="a" type="date" name="fecha" id="fecha" placeholder="Fecha de nacimiento" autocomplete="off" required />
+                <input data-theme="a" type="password" name="pass" id="pass" placeholder="Contraseña" autocomplete="off" required />
+                <input data-theme="a" type="password" name="pass_1" id="pass_1" placeholder="Repita la contraseña" autocomplete="off" required />
+                <br />
+                <input class="ui-btn ui-corner-all" data-theme="b" type="submit" value="Registrar" name="registrar" />
+            </form>         
+        </div>        
+    </div>
+</body>
+</html>
