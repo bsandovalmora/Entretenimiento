@@ -90,7 +90,12 @@
   <ItemGroup>
     <Content Include="Content\css\menu.css" />
     <Content Include="Content\img\anterior.png" />
+    <Content Include="Content\img\bloquear.png" />
+    <Content Include="Content\img\contrasena.png" />
+    <Content Include="Content\img\datos-binarios.png" />
     <Content Include="Content\img\menu %281%29.png" />
+    <Content Include="Content\img\pregunta.png" />
+    <Content Include="Content\img\usuario %281%29.png" />
     <Content Include="Content\img\usuario.png" />
     <Content Include="Content\img\usuarios.png" />
     <Content Include="Content\jquery.mobile-1.4.5\demos\backbone-requirejs\backbone-require.html" />
@@ -803,6 +808,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\InicioSesion.cshtml" />
     <Content Include="Views\Home\CrearCuenta.cshtml" />
+    <Content Include="Views\Home\Perfil.cshtml" />
+    <Content Include="Views\Home\OlvidaContrasena.cshtml" />
+    <Content Include="Views\Home\Ingresar_Respuesta.cshtml" />
+    <Content Include="Views\Home\EnviarCodigo.cshtml" />
+    <Content Include="Views\Home\Nueva_Contrasena.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -25,6 +25,13 @@ namespace Entretenimiento.Controllers
             return View();
         }
 
+        public ActionResult Perfil() //vista solo ingresa la contraseña a la base de datos y muestra un formulario para rellenar perfil
+        {
+            //ingresa los datos faltantes a la base de datos del usuario        
+
+            return View();
+        }
+
         public ActionResult OlvidaContrasena() //vista ingresa el nombre de usuario
         {
             
@@ -55,12 +62,7 @@ namespace Entretenimiento.Controllers
             return View();
         }
 
-        public ActionResult Perfil() //vista solo ingresa la contraseña a la base de datos y muestra un formulario para rellenar perfil
-        {
-            //ingresa los datos faltantes a la base de datos del usuario        
-           
-            return View();
-        }
+        
 
         //--------------------------------------------------VISTA INICIO SESION USUARIOS
         //------------------------------------------------------------------------------

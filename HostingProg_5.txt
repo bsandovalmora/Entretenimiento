@@ -1,0 +1,24 @@
+SOMEE.COM
+
+Servicio Usuarios
+Inicio de sesion SOMEE.COM
+ID camostore 
+PASS 142667Camostore
+Data base Nombre = CamoStore      
+
+ Server name = CamoStore.mssql.somee.com
+ User = CamoStore_progr5
+ Pass = 142667Camostore
+
+
+
+Inicio de sesion     Servicio Productos
+id = camostore_2
+pass = 3118Brandon
+
+Data base Nombre = CamoStoreServicio      
+
+ Server name = CamoStoreServicio.mssql.somee.com
+ User = CamoStoreServicio
+ Pass = 3118Brandon
+

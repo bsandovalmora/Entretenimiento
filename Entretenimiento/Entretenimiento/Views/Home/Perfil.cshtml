@@ -1,0 +1,55 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="~/Content/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/css/menu.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CamoStore</title>
+</head>
+<body>
+    <div data-role="page" data-theme="f">
+        <div data-role="header" data-theme="f">
+            <h1>Perfil</h1>            
+        </div>
+        <div data-role="content" style="text-align:center;">
+            <img src="~/Content/img/usuario (1).png" width="80" height="80"/>
+            <form action="/Home/" method="post">
+
+                <div class="ui-field-contain">
+                    <label for="select-native-17">Seleccione una tarjeta de pago</label>
+                    <select name="select-native-17" id="select-native-17">
+                        <option value="1">Tarjeta 1</option>
+                        <option value="2">Tarjeta 2</option>
+                        <option value="3">Tarjeta 3</option>
+                        <option value="4">Tarjeta 4</option>
+                    </select>
+                </div>
+                <input data-theme="a" type="password" name="numero" id="numero" placeholder="Número de la tarjeta" autocomplete="off" required />
+
+                <div class="ui-field-contain">
+                    <label for="select-native-17">Seleccione una pregunta</label>
+                    <select name="select-native-17" id="select-native-17">
+                        <option value="1">Pregunta 1</option>
+                        <option value="2">Pregunta 2</option>
+                        <option value="3">Pregunta 3</option>
+                        <option value="4">Pregunta 4</option>
+                    </select>
+                </div>
+                <input data-theme="a" type="password" name="respuesta" id="respuesta" placeholder="Ingrese la respuesta" autocomplete="off" required />
+
+                <input class="ui-btn ui-corner-all" data-theme="b" type="submit" value="Terminar" name="registrar" />
+                <a class="ui-btn" href="/Home/InicioSesion" data-transition="pop">Más tarde</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
