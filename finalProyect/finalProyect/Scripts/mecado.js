@@ -1,0 +1,3 @@
+﻿function init() {
+	alert("Hola");
+}
